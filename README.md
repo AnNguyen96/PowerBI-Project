@@ -3,39 +3,41 @@
 </h1>
 
 **Project Description**: 
-This project will use Descriptive analysis to identify patterns in time series data, like trends, cycles or seasonal variation as well as highlights
-the main characteristics of the time series data. Dataset is open data collected from [here](https://www.kaggle.com/datasets/ashbellett/australian-historical-stock-prices?resource=download). 
-Futhermore, I will use the Forecasting model for predicting future data based on the
-historical data with different types. Then I will evaluate and compare the performance of these models against each other and choose the
-best model. Finally, I will answer the inspiration questions raised at the beginning of the project.
+Our goal is to distill actionable insights from the historical dataset, shedding light on patterns, trends and relationships within the data. By leveraging the power
+of data analysis, we aim to provide valuable business intelligence and facilitate informed decision-making, allowing key stakeholders to better understand their
+business. By conducting a methodical investigation of this data, we aim to uncover significant discoveries that help propel strategic plans and improve overall
+operational effectiveness.
 
 <h4 align="center">The project is made by Phuc An Nguyen</h4>
 
-<img src="Stock_prediction.png"
+<img src="PowerBI_Dashboard.png"
      style="float: left; margin-right: 10px;" />
 
 ## Key Features
 
-* Descriptive Analysis: Exploratory Data Analysis, Data Wrangling
-* Data Visulization: Top 5 Opening, Closed price, Volume, Distribution of Low vs High price, Total trading volume and Average Closed price by quarter 
-* Modelling methods: SARIMA models, Long Short-Term Memory models, Random Forest Classifier models 
-* Model evaluation methods: Mean Absolute Percentage Error, Mean Squared Error, Root Mean Squared Error, Mean Absolute Error 
+Problem-solving:
+* Descriptive analysis: Total Sales, Total Profit, Total Customer, Top 5 customers by sales, Top 5 products by profit and top 5 customers by orders.
+* Average delivery date for each type of ship mode.
+* Sales by product category, detail percentage saling by subcategory.
+* Average profit ratio by product, trending sales by date.
+* Profit by segment and ship mode.
+* Correlation between profit and discount, detail information for each consumer.
+* Total orders by state and city.
+
+Data Visualization: Slicer, Card, Bar chart, Pie chart, Donut chart, Line chart, Stacked bar chart, Scatter Plot, Filled map, Treemap.
+
+Decision Making:
+* Discussion: address any limitations or constraints
+* Recommendation: provides specific, actionable recommendations based on the analysis or that can be applied to the future.
 
 ## How to Install and Run the Project
-Run `Time Series Analysis.ipynb` file with `Jupyter Notebook`
+Run `Synogize.pbix` file with `Power BI Desktop`
 
 ## Credits
 This software uses the following open source packages:
 
-- [Python](https://www.python.org/)
-- [pandas](https://pandas.pydata.org/)
-- [numpy](https://numpy.org/)
-- [seaborn](https://seaborn.pydata.org/)
-- [matplotlib](https://matplotlib.org/)
-- [sklearn](https://scikit-learn.org/stable/)
-- [keras](https://keras.io/)
-- [statsmodels](https://www.statsmodels.org/stable/index.html)
-- [Jupyter Notebook](https://jupyter.org/)
+- [DAX](https://learn.microsoft.com/en-us/dax/)
+- [PowerBI Desktop](https://powerbi.microsoft.com/en-us/downloads/)
 
 
 
